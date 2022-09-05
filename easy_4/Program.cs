@@ -16,7 +16,7 @@ Console.Write("в массиве --->" );
 
 for (int i =0; i< N; i++)
 {
-    array[i] = new Random().Next(1, 5);
+    array[i] = new Random().Next(1, 100);
 Console.Write( " "+(array[i]) );
 }
 
